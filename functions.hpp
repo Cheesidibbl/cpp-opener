@@ -11,7 +11,7 @@ void run_thing(int what) {
         result = system("\"C:\\Users\\zjz3060\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\"");
     } else if (what == 2) {
         result = system("\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"");
-    } else if (what != 1 || what != 2) {
+    } else if (what != 1 && what != 2) {
         std::cout << "That isn't an option \n";
         result = 3;
     }
